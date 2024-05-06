@@ -1,0 +1,89 @@
+* {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+p {
+    margin: 0;
+    padding-top: 3px;
+}
+
+h1 {
+    display: inline-block;
+    margin: auto 0 auto 0;
+}
+
+table {
+    margin-bottom: 10px;
+    border: 1px #ffa3d4 solid;
+}
+
+a {
+    text-decoration: none;
+    color: #121a35;
+    margin-right: 3px;
+}
+
+td {
+    background-color: #ffdeeb;
+    border: 1px #fd8da5 solid;
+    padding: 15px 20px 15px 20px;
+}
+
+nav {
+    display: flex;
+    float: right;
+    background-color: #fd8da5;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+td:hover {
+    background-color: #fb99c2;
+    color: #f9cbe0;
+    transition-duration: 0.3s;
+}
+
+.nav-container {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* .nav-element {
+    background-color: #ff9cb3;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+} */
+
+.nav-element:hover {
+    background-color: #fc9696;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+
+.dit {
+    margin: 0;
+    margin-bottom: 5px !important;
+}
+
+.container {
+    margin: 10px;
+}
+
+.flex-wrap {
+    display: flex;
+    align-items: stretch;
+}
+
+
+
+#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title-element {
+    width: 100%;
+}
